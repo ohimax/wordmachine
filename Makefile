@@ -4,7 +4,7 @@ CXXFLAGS := -Wall -Wextra -std=c++17
 SRC_DIR := src
 BIN_DIR := bin
 
-TARGET := $(BIN_DIR)/app
+TARGET := $(BIN_DIR)/wordmachine
 
 SRCS := $(wildcard $(SRC_DIR)/*.cpp)
 
